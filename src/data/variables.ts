@@ -1,18 +1,5 @@
 import { NavLink, PortfolioData } from "../util/types";
-import {
-  Briefcase,
-  User,
-  Code,
-  Mail,
-  Linkedin,
-  Github,
-  Menu,
-  X,
-  Instagram,
-  ArrowRight,
-  Newspaper,
-  LucideProps,
-} from "lucide-react";
+import { Briefcase, User, Code, Mail, Newspaper } from "lucide-react";
 
 export const portfolioData: PortfolioData = {
   name: "Your Name",

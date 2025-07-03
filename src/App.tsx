@@ -1,12 +1,6 @@
 import { FC } from "react";
-import { Mail, Linkedin, Github, Instagram } from "lucide-react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import { portfolioData } from "./data/variables";
-import ProjectCard from "./components/ProjectCard";
-import MediumPostCard from "./components/MediumPostCard";
-import SocialIcon from "./components/SocialIcon";
-import Section from "./components/Section";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
