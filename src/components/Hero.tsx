@@ -11,7 +11,10 @@ const Hero: FC = () => {
             {portfolioData.name}
           </h1>
           <p className="text-2xl md:text-3xl text-black font-bold mb-6 bg-yellow-300 inline-block p-2 border-2 border-black">
-            {portfolioData.title}
+            {portfolioData.title[0]}
+          </p>
+          <p className="text-2xl md:text-3xl text-black font-bold mb-6 bg-pink-300 inline-block p-2 border-2 border-black">
+            {portfolioData.title[1]}
           </p>
           <p className="max-w-2xl text-lg text-gray-800 mb-8">
             {portfolioData.bio}

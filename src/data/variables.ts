@@ -2,15 +2,15 @@ import { NavLink, PortfolioData } from "../util/types";
 import { Briefcase, User, Code, Mail, Newspaper } from "lucide-react";
 
 export const portfolioData: PortfolioData = {
-  name: "Your Name",
-  title: "Full-Stack Developer",
-  bio: "I'm a passionate developer building robust and user-centric web applications. My focus is on clean code and impactful design.",
+  name: "Hafidz Ahlaqul Anbiya",
+  title: ["Full-Stack Developer", "Cybersecurity Enthusiast"],
+  bio: "I am a passionate full-stack developer with a keen interest in cybersecurity. I specialize in building scalable web applications and ensuring their security against modern threats.",
   about:
-    "Hello! I'm a dedicated and results-driven web developer with a strong foundation in modern web technologies. My journey in programming started with a fascination for how things work on the internet, which quickly grew into a passion for creating dynamic and interactive web experiences. I thrive on solving complex problems and am constantly learning to keep up with the ever-evolving tech landscape. When I'm not coding, I enjoy hiking, photography, and exploring new coffee shops.",
-  email: "your.email@example.com",
-  linkedin: "https://linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
-  instagram: "https://instagram.com/your-username",
+    "I'm an undergraduate student at Politeknik Negeri Sriwijaya, majoring in Computer Science. I have a strong foundation in web development and cybersecurity principles. My goal is to create secure and efficient applications that enhance user experience while protecting sensitive data.",
+  email: "anbiya574@gmail.com",
+  linkedin: "https://linkedin.com/in/hafidz574",
+  github: "https://github.com/m4iev",
+  instagram: "https://instagram.com/hafidz.aa",
   projects: [
     {
       title: "E-commerce Platform",
@@ -58,41 +58,44 @@ export const portfolioData: PortfolioData = {
   skills: [
     "JavaScript (ES6+)",
     "TypeScript",
-    "React",
-    "Next.js",
+    "React.js",
+    "React Native",
+    "Expo",
     "Node.js",
     "Express.js",
     "Python",
-    "Django",
     "HTML5",
     "CSS3",
     "Tailwind CSS",
-    "Sass",
-    "MongoDB",
+    "Laravel",
+    "PHP",
     "PostgreSQL",
-    "Firebase",
+    "Supabase",
     "Git",
-    "Docker",
-    "Jest",
+    "Linux",
+    "Unity Game Engine",
+    "C#",
+    "Cisco Packet Tracer",
+    "Cybersecurity Fundamentals",
   ],
   mediumPosts: [
     {
-      title: "Demystifying React Hooks",
+      title: "🗺️My Cybersecurity Roadmap for The Next 5 Years🔒",
       description:
-        "A deep dive into the most commonly used React Hooks and how they can simplify your component logic.",
-      link: "#",
+        "An overview about my roadmap to become a cybersecurity engineer.",
+      link: "https://medium.com/@anbiya574/my-cybersecurity-roadmap-for-the-next-5-years-62208a2bb91f",
     },
     {
-      title: "Building with Neo-Brutalism in Tailwind CSS",
+      title: "Configuring UFW (Uncomplicated Firewall) on my Fedora KDE System",
       description:
-        "Exploring the design principles of Neo-Brutalism and how to implement them effectively using Tailwind CSS.",
-      link: "#",
+        "Securing my Fedora KDE system with UFW for better network security.",
+      link: "https://medium.com/@anbiya574/configuring-ufw-uncomplicated-firewall-on-my-fedora-kde-system-7de3d746e6e0",
     },
     {
-      title: "A Guide to State Management in Modern Web Apps",
+      title: "Web3 Cryptography: Understanding ECC and Its Threats",
       description:
-        "Comparing different state management solutions like Context API, Redux, and Zustand for your next project.",
-      link: "#",
+        "A deep dive into elliptic curve cryptography and its implications for Web3 security.",
+      link: "https://medium.com/@anbiya574/web3-cryptography-understanding-ecc-and-its-threats-22f6e68502ad",
     },
   ],
 };

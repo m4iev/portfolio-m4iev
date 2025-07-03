@@ -23,7 +23,7 @@ export interface NavLink {
 
 export interface PortfolioData {
   name: string;
-  title: string;
+  title: string[];
   bio: string;
   about: string;
   email: string;
