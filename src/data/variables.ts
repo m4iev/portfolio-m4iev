@@ -36,12 +36,11 @@ export const portfolioData: PortfolioData = {
       githubLink: "https://github.com/m4iev/camera-parts",
     },
     {
-      title: "Data Visualization Dashboard",
+      title: "Dapoer Alfredho",
       description:
-        "An interactive dashboard for visualizing complex datasets using D3.js and React, providing insightful analytics.",
-      technologies: ["React", "D3.js", "Tailwind CSS"],
-      liveLink: "#",
-      githubLink: "#",
+        "Dapoer Alfredo's food menu app made with Android Studio (Kotlin).",
+      technologies: ["Android Studio", "Kotlin"],
+      githubLink: "https://github.com/m4iev/dapoer-alfredho",
     },
     {
       title: "Real-time Chat Application",
@@ -79,6 +78,7 @@ export const portfolioData: PortfolioData = {
     "Android Studio",
     "Kotlin",
     "Figma",
+    "Verge3D",
   ],
   mediumPosts: [
     {
