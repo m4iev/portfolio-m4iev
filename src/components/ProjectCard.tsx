@@ -19,14 +19,17 @@ const ProjectCard: FC<{ project: Project }> = ({ project }) => {
         ))}
       </div>
       <div className="flex items-center justify-end gap-4 mt-auto pt-4">
-        <a
-          href={project.liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-black hover:text-yellow-500 font-bold transition-colors duration-300 flex items-center gap-1"
-        >
-          Live Demo <ArrowRight size={20} />
-        </a>
+        {project.liveLink && (
+          <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black hover:text-yellow-500 font-bold transition-colors duration-300 flex items-center gap-1"
+          >
+            Live Demo <ArrowRight size={20} />
+          </a>
+        )}
+
         {project.mediumLink && (
           <a
             href={project.mediumLink}
@@ -37,14 +40,16 @@ const ProjectCard: FC<{ project: Project }> = ({ project }) => {
             <MediumIcon className="w-6 h-6" />
           </a>
         )}
-        <a
-          href={project.githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-black hover:text-yellow-500 transition-colors duration-300"
-        >
-          <Github size={24} />
-        </a>
+        {project.githubLink && (
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black hover:text-yellow-500 transition-colors duration-300"
+          >
+            <Github size={24} />
+          </a>
+        )}
       </div>
     </div>
   );

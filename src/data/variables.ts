@@ -13,30 +13,27 @@ export const portfolioData: PortfolioData = {
   instagram: "https://instagram.com/hafidz.aa",
   projects: [
     {
-      title: "E-commerce Platform",
+      title: "Super Cebol",
       description:
-        "A feature-rich online store built with the MERN stack. Includes product catalog, shopping cart, and user authentication.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      liveLink: "#",
-      githubLink: "#",
-      mediumLink: "#",
+        "2D Platformer game developed using Construct 2. It features simple gameplay mechanics and a horror plot twist. 😱",
+      technologies: ["Construct 2", "Visual Scripting"],
+      liveLink: "https://maiev12.itch.io/super-cebol",
     },
     {
-      title: "Project Management Tool",
+      title: "MemasaX",
       description:
-        "A collaborative tool for teams to manage tasks and track progress with real-time updates using WebSockets.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      liveLink: "#",
-      githubLink: "#",
+        "AR app project that shows 3D model when the camera aim at a marker.",
+      technologies: ["Unity", "C#", "Vuforia"],
+      githubLink: "https://github.com/m4iev/memasax",
     },
     {
-      title: "Personal Blog",
+      title: "Camera Parts Interactive 3D Experience ",
       description:
         "A clean and minimalist blog platform created with Next.js and Markdown. Optimized for performance and SEO.",
-      technologies: ["Next.js", "React", "Markdown"],
-      liveLink: "#",
-      githubLink: "#",
-      mediumLink: "#",
+      technologies: ["Blender", "Verge3D", "Visual Scripting", "JavaScript"],
+      liveLink:
+        "https://drive.google.com/file/d/1xoXffKc8HMFWodKfNNKoO01tfbEKjU3N/view?usp=sharing",
+      githubLink: "https://github.com/m4iev/camera-parts",
     },
     {
       title: "Data Visualization Dashboard",
