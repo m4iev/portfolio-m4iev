@@ -1,5 +1,5 @@
 import { useState, FC } from "react";
-import { navLinks, portfolioData } from "../data/variables";
+import { navLinks } from "../data/variables";
 import { Menu, X } from "lucide-react";
 
 const Header: FC = () => {
@@ -44,7 +44,7 @@ const Header: FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMenuOpen(false)}
-                className="flex items-center gap-4 text-black hover:bg-yellow-300 block px-4 py-3 text-lg font-bold border-2 border-black"
+                className="flex items-center gap-4 text-black hover:bg-yellow-300 px-4 py-3 text-lg font-bold border-2 border-black"
               >
                 <link.icon className="w-6 h-6" />
                 {link.label}

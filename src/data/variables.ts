@@ -77,6 +77,11 @@ export const portfolioData: PortfolioData = {
     "C#",
     "Cisco Packet Tracer",
     "Cybersecurity Fundamentals",
+    "Docker",
+    "Networking",
+    "Android Studio",
+    "Kotlin",
+    "Figma",
   ],
   mediumPosts: [
     {
