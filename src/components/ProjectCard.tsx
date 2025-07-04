@@ -1,4 +1,4 @@
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, Figma, FileText, Github } from "lucide-react";
 import { Project } from "../util/types";
 import { FC } from "react";
 import MediumIcon from "./MediumIcon";
@@ -48,6 +48,26 @@ const ProjectCard: FC<{ project: Project }> = ({ project }) => {
             className="text-black hover:text-yellow-500 transition-colors duration-300"
           >
             <Github size={24} />
+          </a>
+        )}
+        {project.documentLink && (
+          <a
+            href={project.documentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black hover:text-yellow-500 transition-colors duration-300"
+          >
+            <FileText size={24} />
+          </a>
+        )}
+        {project.figmaLink && (
+          <a
+            href={project.figmaLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black hover:text-yellow-500 transition-colors duration-300"
+          >
+            <Figma size={24} />
           </a>
         )}
       </div>

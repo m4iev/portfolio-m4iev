@@ -43,12 +43,20 @@ export const portfolioData: PortfolioData = {
       githubLink: "https://github.com/m4iev/dapoer-alfredho",
     },
     {
-      title: "Real-time Chat Application",
+      title: "MyRantau",
       description:
-        "A full-stack chat application enabling real-time messaging, user presence, and private chat rooms.",
-      technologies: ["Socket.IO", "React", "Node.js"],
-      liveLink: "#",
-      githubLink: "#",
+        "UI/UX design project for a mobile app that helps users order MyRantau's beverages from their own phone.",
+      technologies: ["Figma", "UI/UX Design"],
+      figmaLink:
+        "https://www.figma.com/design/zgfLR2wkT5ITYEHsRoe3Z8/MyRantau?node-id=0-1&p=f&t=7Xmtb1HntD8nX8s0-0",
+    },
+    {
+      title: "Network Infrastructure Implementation using Cisco Packet Tracer",
+      description:
+        "A project demonstrating the implementation of a network infrastructure using Cisco Packet Tracer",
+      technologies: ["Networking", "Cisco Packet Tracer"],
+      documentLink:
+        "https://drive.google.com/file/d/1WLpHMfYIlCoL7wRK4ZABwSVO0rParOws/view?usp=sharing",
     },
   ],
   skills: [

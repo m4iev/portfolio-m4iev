@@ -7,6 +7,8 @@ export interface Project {
   liveLink?: string;
   githubLink?: string;
   mediumLink?: string;
+  documentLink?: string;
+  figmaLink?: string;
 }
 
 export interface MediumPost {
