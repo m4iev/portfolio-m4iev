@@ -14,17 +14,24 @@ const App: FC = () => {
       {/* Animation Styles */}
       <style>
         {`
-                    @keyframes scroll-left {
-                        from { transform: translateX(0); }
-                        to { transform: translateX(-50%); }
-                    }
-                    .animate-scroll-left {
-                        animation: scroll-left 15s linear infinite;
-                    }
-                    .group:hover .animate-scroll-left {
-                        animation-play-state: paused;
-                    }
-                `}
+    @keyframes scroll-left {
+      from { transform: translate3d(0, 0, 0); }
+      to { transform: translate3d(-50%, 0, 0); }
+    }
+    .animate-scroll-left {
+      animation: scroll-left 7s linear infinite;
+      will-change: transform;
+    }
+    .group:hover .animate-scroll-left {
+      animation-play-state: paused;
+    }
+    /* Faster animation on small screens */
+    @media (max-width: 640px) {
+      .animate-scroll-left {
+        animation-duration: 3.5s;
+      }
+    }
+  `}
       </style>
 
       <Header />
