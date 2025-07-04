@@ -5,7 +5,7 @@ import MediumIcon from "./MediumIcon";
 
 const ProjectCard: FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className="bg-white rounded-none border-4 border-black p-6 flex flex-col h-full shadow-[8px_8px_0px_#000] w-96 flex-shrink-0">
+    <div className="bg-white rounded-none border-4 border-black p-6 flex flex-col h-full shadow-[8px_8px_0px_#000] w-96 max-w-full sm:w-96 flex-shrink-0 mx-4 sm:mx-0">
       <h3 className="text-2xl font-bold text-black mb-3">{project.title}</h3>
       <p className="text-gray-700 mb-4 flex-grow">{project.description}</p>
       <div className="flex flex-wrap gap-2 mb-6">
