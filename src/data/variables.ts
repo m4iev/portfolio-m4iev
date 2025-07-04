@@ -73,6 +73,13 @@ export const portfolioData: PortfolioData = {
       ],
       githubLink: "https://github.com/m4iev/askitout",
     },
+    {
+      title: "Alwage Apparel Website",
+      description:
+        "A simple responsive website for Alwage Apparel, a custom jersey and apparel manufacturer.",
+      technologies: ["HTML5", "CSS", "JavaScript (ES6+)"],
+      githubLink: "https://github.com/m4iev/alwage-apparel",
+    },
   ],
   skills: [
     "JavaScript (ES6+)",
