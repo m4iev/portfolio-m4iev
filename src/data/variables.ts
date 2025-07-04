@@ -62,7 +62,15 @@ export const portfolioData: PortfolioData = {
       title: "Askitout",
       description:
         "A Laravel-based Q&A platform where users can ask and answer questions, similar to Stack Overflow.",
-      technologies: ["PHP", "Laravel", "PostgreSQL", "Node.js", "Blade"],
+      technologies: [
+        "PHP",
+        "Laravel",
+        "PostgreSQL",
+        "Node.js",
+        "Blade",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+      ],
       githubLink: "https://github.com/m4iev/askitout",
     },
   ],
