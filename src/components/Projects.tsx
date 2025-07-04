@@ -21,7 +21,7 @@ const Projects: FC = () => {
           {showAll ? "Show Less" : "View All"}
         </button>
       </div>
-      <div className="w-full group mt-8">
+      <div className="w-full overflow-hidden group mt-8">
         {showAll ? (
           <div className="flex flex-wrap justify-center gap-6">
             {portfolioData.projects.map((project, index) => (
@@ -31,10 +31,10 @@ const Projects: FC = () => {
             ))}
           </div>
         ) : (
-          <div className="flex animate-scroll-left">
+          <div className="flex animate-scroll-left w-max gap-6">
             {[...portfolioData.projects, ...portfolioData.projects].map(
               (project, index) => (
-                <div key={index} className="mx-5">
+                <div key={index} className="my-4">
                   <ProjectCard project={project} />
                 </div>
               )

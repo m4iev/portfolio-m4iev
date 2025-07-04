@@ -16,19 +16,18 @@ const App: FC = () => {
         {`
     @keyframes scroll-left {
       from { transform: translate3d(0, 0, 0); }
-      to { transform: translate3d(-50%, 0, 0); }
+      to { transform: translate3d(-100%, 0, 0); }
     }
     .animate-scroll-left {
-      animation: scroll-left 20s linear infinite;
+      animation: scroll-left 30s linear infinite;
       will-change: transform;
     }
     .group:hover .animate-scroll-left {
       animation-play-state: paused;
     }
-    /* Faster animation on small screens */
     @media (max-width: 640px) {
       .animate-scroll-left {
-        animation-duration: 12s;
+        animation-duration: 20s;
       }
     }
   `}
