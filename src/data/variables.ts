@@ -58,6 +58,13 @@ export const portfolioData: PortfolioData = {
       documentLink:
         "https://drive.google.com/file/d/1WLpHMfYIlCoL7wRK4ZABwSVO0rParOws/view?usp=sharing",
     },
+    {
+      title: "Askitout",
+      description:
+        "A Laravel-based Q&A platform where users can ask and answer questions, similar to Stack Overflow.",
+      technologies: ["PHP", "Laravel", "PostgreSQL", "Node.js", "Blade"],
+      githubLink: "https://github.com/m4iev/askitout",
+    },
   ],
   skills: [
     "JavaScript (ES6+)",
