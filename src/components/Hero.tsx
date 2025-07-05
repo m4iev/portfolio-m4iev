@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { portfolioData } from "../data/variables";
 import NeoButton from "./NeoButton";
+import profilePhoto from "../assets/poto.jpeg";
 
 const Hero: FC = () => {
   return (
@@ -23,11 +24,8 @@ const Hero: FC = () => {
         </div>
         <div className="w-48 h-48 md:w-64 md:h-64 bg-yellow-300 border-4 border-black flex items-center justify-center shadow-[12px_12px_0px_#000]">
           <img
-            src={`https://placehold.co/256x256/1a1a1a/fde047?text=${portfolioData.name.slice(
-              0,
-              2
-            )}`}
-            alt="Your Name Initials"
+            src={profilePhoto}
+            alt="Hafidz"
             className="w-full h-full object-cover"
           />
         </div>
