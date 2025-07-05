@@ -80,6 +80,13 @@ export const portfolioData: PortfolioData = {
       technologies: ["HTML5", "CSS", "JavaScript (ES6+)"],
       githubLink: "https://github.com/m4iev/alwage-apparel",
     },
+    {
+      title: "Finding Mama",
+      description: "2D adventure game created with Unity Engine.",
+      technologies: ["Unity", "C#", "Unity Animator"],
+      githubLink: "https://github.com/m4iev/finding-mama",
+      liveLink: "https://maiev12.itch.io/finding-mama",
+    },
   ],
   skills: [
     "JavaScript (ES6+)",
