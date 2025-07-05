@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-m4iev/static/css/main.557d60c7.css",
+    "main.js": "/portfolio-m4iev/static/js/main.0c8a834d.js",
+    "index.html": "/portfolio-m4iev/index.html",
+    "main.557d60c7.css.map": "/portfolio-m4iev/static/css/main.557d60c7.css.map",
+    "main.0c8a834d.js.map": "/portfolio-m4iev/static/js/main.0c8a834d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.557d60c7.css",
+    "static/js/main.0c8a834d.js"
+  ]
+}
