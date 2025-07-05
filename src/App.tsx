@@ -16,7 +16,7 @@ const App: FC = () => {
         {`
     @keyframes scroll-left {
       from { transform: translate3d(0, 0, 0); }
-      to { transform: translate3d(-100%, 0, 0); }
+      to { transform: translate3d(-185%, 0, 0); }
     }
     .animate-scroll-left {
       animation: scroll-left 30s linear infinite;

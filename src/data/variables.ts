@@ -87,6 +87,46 @@ export const portfolioData: PortfolioData = {
       githubLink: "https://github.com/m4iev/finding-mama",
       liveLink: "https://maiev12.itch.io/finding-mama",
     },
+    {
+      title: "Timun Mas",
+      description: "2D interactive storytelling created with Unity Engine.",
+      technologies: ["Unity", "C#", "Unity Animator"],
+      githubLink: "https://github.com/m4iev/timun-mas",
+      liveLink: "https://maiev12.itch.io/timun-mas",
+    },
+    {
+      title: "Kenten",
+      description: "Web App to manage competition, made with PHP.",
+      technologies: ["PHP", "HTML5", "CSS", "JavaScript (ES6+)", "jQuery"],
+      githubLink: "https://github.com/m4iev/kenten",
+    },
+    {
+      title: "DiTES Mobile (Private Project)",
+      description:
+        "Mobile app port for DiTES app by LLDIKTI 2, made with React Native and Expo.",
+      technologies: [
+        "React",
+        "React Native",
+        "Expo",
+        "JavaScript (ES6+)",
+        "Functional Programming",
+      ],
+      figmaLink:
+        "https://www.figma.com/design/BQ69I8RbTjAvn1E4xu9YKA/Dites-Mobile?node-id=4036-133&t=Saom8E0zEPakvbs3-0",
+    },
+    {
+      title: "Moderno Furnish",
+      description:
+        "Simple, responsive website showcasing modern furniture. It demonstrates basic web development skills including HTML, CSS, and JavaScript.",
+      technologies: [
+        "HTML5",
+        "CSS",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "PHP",
+      ],
+      githubLink: "https://github.com/m4iev/moderno-furnish/",
+    },
   ],
   skills: [
     "JavaScript (ES6+)",
