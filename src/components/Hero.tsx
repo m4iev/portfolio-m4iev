@@ -6,7 +6,7 @@ import profilePhoto from "../assets/poto.jpeg";
 const Hero: FC = () => {
   return (
     <section className="bg-lime-50 border-b-4 border-black">
-      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16 py-24 md:py-32 text-left flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16 py-24 md:py-32 text-center lg:text-center flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1">
           <h1 className="text-5xl md:text-7xl font-extrabold text-black mb-4">
             {portfolioData.name}
