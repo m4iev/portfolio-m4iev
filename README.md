@@ -1,3 +1,1 @@
-# Getting Started with Create React App
-
-My portfolio website
+# A Website to showcase all my projects
