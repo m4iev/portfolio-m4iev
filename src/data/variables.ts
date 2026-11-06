@@ -118,7 +118,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       title: "Kenten",
-      description: "Web App to manage competition, made with PHP.",
+      description: "Competition management web app built with PHP and MySQL using a lightweight MVC-style architecture. Admin panel for competitions, teams, submissions and results; participant dashboard for team registration, work uploads (website, game, animation) and status tracking; auth and responsive UI. 4th place, Palembang City Innovation Competition 2024.",
       technologies: ["PHP", "HTML5", "CSS", "JavaScript (ES6+)", "jQuery"],
       githubLink: "https://github.com/m4iev/kenten",
     },
@@ -139,7 +139,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Moderno Furnish",
       description:
-        "Simple, responsive website showcasing modern furniture. It demonstrates basic web development skills including HTML, CSS, and JavaScript.",
+        "Responsive furniture store built with PHP, TailwindCSS and MySQL in a lightweight MVC-style architecture. Features user registration and login, product search, cart checkout with simulated payment (transfer proof upload + admin confirmation), order history, and an admin panel for product CRUD, accounts and transactions.",
       technologies: [
         "HTML5",
         "CSS",
