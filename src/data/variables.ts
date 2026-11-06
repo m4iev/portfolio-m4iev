@@ -1,17 +1,39 @@
 import { NavLink, PortfolioData } from "../util/types";
-import { Briefcase, User, Code, Mail, Newspaper } from "lucide-react";
+import {
+  Briefcase,
+  User,
+  Code,
+  Mail,
+  Newspaper,
+  GraduationCap,
+} from "lucide-react";
 
 export const portfolioData: PortfolioData = {
   name: "Hafidz Ahlaqul Anbiya",
   title: ["Full-Stack Developer", "Cybersecurity Enthusiast"],
   bio: "I am a passionate full-stack developer with a keen interest in cybersecurity. I specialize in building scalable web applications and ensuring their security against modern threats.",
   about:
-    "I'm an undergraduate student at Politeknik Negeri Sriwijaya, majoring in Computer Science. I have a strong foundation in web development and cybersecurity principles. My goal is to create secure and efficient applications that enhance user experience while protecting sensitive data.",
+    "I'm an undergraduate student at Politeknik Negeri Sriwijaya, majoring in Digital Multimedia Information Technology (Teknologi Informatika Multimedia Digital). I have a strong foundation in web development and cybersecurity principles. My goal is to create secure and efficient applications that enhance user experience while protecting sensitive data.",
   email: "anbiya574@gmail.com",
   linkedin: "https://linkedin.com/in/hafidz574",
   github: "https://github.com/m4iev",
   instagram: "https://instagram.com/hafidz.aa",
   projects: [
+    {
+      title: "Anomaly Detection Pipeline (Thesis)",
+      description:
+        "Final project: a Random Forest model that flags anomalous daily cash reports across 8 retail branches, exposed through a Flask API and automated with an n8n workflow that emails alerts in seconds.",
+      technologies: [
+        "Python",
+        "scikit-learn",
+        "Random Forest",
+        "Flask",
+        "n8n",
+        "Docker",
+      ],
+      documentLink:
+        "https://drive.google.com/drive/folders/1QKNwrMs3wSuRlhhlkCN0vJ0dKqjbeCn7?usp=sharing",
+    },
     {
       title: "Super Cebol",
       description:
@@ -22,14 +44,14 @@ export const portfolioData: PortfolioData = {
     {
       title: "MemasaX",
       description:
-        "AR app project that shows 3D model when the camera aim at a marker.",
+        "AR app project that shows a 3D model when the camera aims at a marker.",
       technologies: ["Unity", "C#", "Vuforia"],
       githubLink: "https://github.com/m4iev/memasax",
     },
     {
-      title: "Camera Parts Interactive 3D Experience ",
+      title: "Camera Parts Interactive 3D Experience",
       description:
-        "A clean and minimalist blog platform created with Next.js and Markdown. Optimized for performance and SEO.",
+        "An interactive 3D experience built with Blender and Verge3D that lets users explore camera parts directly in the browser.",
       technologies: ["Blender", "Verge3D", "Visual Scripting", "JavaScript"],
       liveLink:
         "https://drive.google.com/file/d/1xoXffKc8HMFWodKfNNKoO01tfbEKjU3N/view?usp=sharing",
@@ -38,7 +60,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Dapoer Alfredho",
       description:
-        "Dapoer Alfredo's food menu app made with Android Studio (Kotlin).",
+        "Dapoer Alfredho's food menu app made with Android Studio (Kotlin).",
       technologies: ["Android Studio", "Kotlin"],
       githubLink: "https://github.com/m4iev/dapoer-alfredho",
     },
@@ -53,7 +75,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Network Infrastructure Implementation using Cisco Packet Tracer",
       description:
-        "A project demonstrating the implementation of a network infrastructure using Cisco Packet Tracer",
+        "A project demonstrating the implementation of a network infrastructure using Cisco Packet Tracer.",
       technologies: ["Networking", "Cisco Packet Tracer"],
       documentLink:
         "https://drive.google.com/file/d/1WLpHMfYIlCoL7wRK4ZABwSVO0rParOws/view?usp=sharing",
@@ -181,6 +203,7 @@ export const portfolioData: PortfolioData = {
 
 export const navLinks: NavLink[] = [
   { href: "#about", label: "About", icon: User },
+  { href: "#thesis", label: "Thesis", icon: GraduationCap },
   { href: "#projects", label: "Projects", icon: Briefcase },
   { href: "#skills", label: "Skills", icon: Code },
   { href: "#blog", label: "Blog", icon: Newspaper },

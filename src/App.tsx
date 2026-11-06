@@ -2,6 +2,7 @@ import { FC } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Thesis from "./components/Thesis";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Blogs from "./components/Blogs";
@@ -38,6 +39,7 @@ const App: FC = () => {
       <main>
         <Hero />
         <About />
+        <Thesis />
         <Projects />
         <Skills />
         <Blogs />
