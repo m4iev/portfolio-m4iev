@@ -13,7 +13,7 @@ export const portfolioData: PortfolioData = {
   title: ["Full-Stack Developer", "Cybersecurity Enthusiast"],
   bio: "I am a passionate full-stack developer with a keen interest in cybersecurity. I specialize in building scalable web applications and ensuring their security against modern threats.",
   about:
-    "I'm an undergraduate student at Politeknik Negeri Sriwijaya, majoring in Digital Multimedia Information Technology (Teknologi Informatika Multimedia Digital). I have a strong foundation in web development and cybersecurity principles. My goal is to create secure and efficient applications that enhance user experience while protecting sensitive data.",
+    "I'm a fresh graduate from Politeknik Negeri Sriwijaya, majoring in Digital Multimedia Information Technology (Teknologi Informatika Multimedia Digital). I have a strong foundation in web development, game development and cybersecurity principles. My goal is to create secure and efficient applications that enhance user experience while protecting sensitive data.",
   email: "anbiya574@gmail.com",
   linkedin: "https://linkedin.com/in/hafidz574",
   github: "https://github.com/m4iev",
